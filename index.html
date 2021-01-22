@@ -5,10 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
+    <title>Vertical Slider</title>
 </head>
 <body>
-    <h1>Project Starter</h1>
+    <div class="slider-container">
+        <div class="left-slide">
+            <div style="background-color: #0D7ADF;">
+                <h1>Sonic the Hedgehog</h1>
+                <p>Gotta go fast!</p>
+            </div>
+            <div style="background-color: #FD95C6;">
+                <h1>Amy Rose</h1>
+                <p>watch me dance!</p>
+            </div>
+            <div style="background-color: #F1B000;">
+                <h1>Tails</h1>
+                <p>watch me fly!</p>
+            </div>
+            <div style="background-color: #563f87;">
+                <h1>Big the Cat</h1>
+                <p>just fishin'</p>
+            </div>
+        </div>
+        <div class="right-slide">
+            <div style="background-image: url('./bigthecat.jpg');"></div>
+            <div style="background-image: url('./tails.jpg');"></div>
+            <div style="background-image: url('./amy.png');"></div>
+            <div style="background-image: url('./sonic.png');"></div>
+        </div>
+        <div class="action-buttons">
+            <button class="down-button">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
